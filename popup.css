@@ -1,0 +1,64 @@
+/* Style for the container */
+.container {
+    width: 280px;   /* Set the width of the container */
+    color: #b16c17;  /* Set the text color */
+  }
+  
+  /* Style for the title */
+  .title {
+    font-size: 14px;   /* Set the font size */
+    font-weight: bold; /* Set the font weight to bold */
+    padding: 8px;      /* Add padding around the title */
+  }
+  
+  /* Style for the textbox */
+  .textbox {
+    width: 100%;       /* Make the textbox width 100% of its container */
+    font-size: 12px;   /* Set the font size */
+    margin: 0;         /* Remove margin */
+    padding: 0px 2px;   /* Add padding to the textbox */
+  }
+  
+  /* Style for the focused state of the textbox */
+  .textbox:focus {
+    outline: 0;         /* Remove the outline when focused */
+    border-color: #66afe9;  /* Set border color when focused */
+  }
+  
+  /* Style for the bookmarks container */
+  .bookmarks {
+    margin: 5px 5px;   /* Set margin around the bookmarks container */
+    padding: 3px;      /* Add padding to the bookmarks container */
+  }
+  
+  /* Style for individual bookmarks */
+  .bookmark {
+    display: flex;     /* Use a flex layout for bookmarks */
+    border-bottom-color: #00254d; /* Set border bottom color */
+    border-bottom-width: 1px;     /* Set border bottom width */
+    border-bottom-style: solid;   /* Set border bottom style to solid */
+    border-radius: 0.8rem;        /* Add border radius for rounded corners */
+    padding: 3px;                /* Add padding around each bookmark */
+    padding-bottom: 7px;         /* Additional padding at the bottom */
+    margin-bottom: 7px;          /* Add margin at the bottom of each bookmark */
+  }
+  
+  /* Style for the title within a bookmark */
+  .bookmark-title {
+    padding-left: 2px;   /* Add padding to the left of the bookmark title */
+  }
+  
+  /* Style for images within bookmark controls */
+  .bookmark-controls img {
+    margin: 0 4px;      /* Add margin around bookmark control images */
+    width: 18px;        /* Set the width of bookmark control images */
+    height: 18px;       /* Set the height of bookmark control images */
+    cursor: pointer;    /* Set the cursor to a pointer for clickable images */
+  }
+  
+  /* Style for the bookmark controls */
+  .bookmark-controls {
+    flex: auto;         /* Automatically occupy available space in a flex container */
+    text-align: right;  /* Align text to the right within bookmark controls */
+  }
+  
